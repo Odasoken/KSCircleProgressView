@@ -13,7 +13,7 @@ s.requires_arc = true
 s.source_files = "KSCircleProgressView", "*.{h,m}"
 s.public_header_files = 'KSCircleProgressView/**/*.{h}'
 
-s.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore',
+s.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore'
 
 end
 
