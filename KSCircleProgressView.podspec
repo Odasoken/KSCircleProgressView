@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KSCircleProgressView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
 s.summary      = "KSCircleProgressView : a lightweight iOS Circle ProgressView."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ s.description  = "KSCircleProgressView: a lightweight ProgressView that display 
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/abredo/KSCircleProgressViewDemo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/abredo/KSCircleProgressViewDemo.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
