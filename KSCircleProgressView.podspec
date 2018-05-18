@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "KSCircleProgressView"
   s.version      = "0.0.1"
-  s.summary      = "A lightweight iOS Circle ProgressView."
+s.summary      = "KSCircleProgressView : a lightweight iOS Circle ProgressView."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "A lightweight ProgressView that display progress in circle style."
+s.description  = "KSCircleProgressView: a lightweight ProgressView that display progress in circle style."
 
   s.homepage     = "https://github.com/abredo/KSCircleProgressViewDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
