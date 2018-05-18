@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "A lightweight ProgressView that display progress in circle style."
 
   s.homepage     = "https://github.com/abredo/KSCircleProgressViewDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -65,7 +64,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "8.0"
-
+  s.requires_arc = true
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
