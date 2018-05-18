@@ -14,7 +14,7 @@
 		3AC3CB6F20AE662500D325C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3CB6D20AE662500D325C2 /* LaunchScreen.storyboard */; };
 		3AC3CB7220AE662500D325C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB7120AE662500D325C2 /* main.m */; };
 		3AC3CB7C20AE662500D325C2 /* KSCircleProgressViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB7B20AE662500D325C2 /* KSCircleProgressViewDemoUITests.m */; };
-		3AC3CB8D20AE748700D325C2 /* KSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB8C20AE748700D325C2 /* KSCircleProgressView.m */; };
+		3AC3CB9120AEA77F00D325C2 /* KSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB9020AEA77F00D325C2 /* KSCircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		3AC3CB7720AE662500D325C2 /* KSCircleProgressViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSCircleProgressViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC3CB7B20AE662500D325C2 /* KSCircleProgressViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCircleProgressViewDemoUITests.m; sourceTree = "<group>"; };
 		3AC3CB7D20AE662500D325C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AC3CB8B20AE748700D325C2 /* KSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCircleProgressView.h; sourceTree = "<group>"; };
-		3AC3CB8C20AE748700D325C2 /* KSCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCircleProgressView.m; sourceTree = "<group>"; };
+		3AC3CB8F20AEA77F00D325C2 /* KSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCircleProgressView.h; sourceTree = "<group>"; };
+		3AC3CB9020AEA77F00D325C2 /* KSCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				3AC3CB6320AE661700D325C2 /* AppDelegate.m */,
 				3AC3CB6520AE661700D325C2 /* ViewController.h */,
 				3AC3CB6620AE661700D325C2 /* ViewController.m */,
-				3AC3CB8A20AE748700D325C2 /* KSCircleProgressView */,
+				3AC3CB8E20AEA77F00D325C2 /* KSCircleProgressView */,
 				3AC3CB6820AE661700D325C2 /* Main.storyboard */,
 				3AC3CB6B20AE662500D325C2 /* Assets.xcassets */,
 				3AC3CB6D20AE662500D325C2 /* LaunchScreen.storyboard */,
@@ -107,11 +107,11 @@
 			path = KSCircleProgressViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		3AC3CB8A20AE748700D325C2 /* KSCircleProgressView */ = {
+		3AC3CB8E20AEA77F00D325C2 /* KSCircleProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				3AC3CB8B20AE748700D325C2 /* KSCircleProgressView.h */,
-				3AC3CB8C20AE748700D325C2 /* KSCircleProgressView.m */,
+				3AC3CB8F20AEA77F00D325C2 /* KSCircleProgressView.h */,
+				3AC3CB9020AEA77F00D325C2 /* KSCircleProgressView.m */,
 			);
 			path = KSCircleProgressView;
 			sourceTree = SOURCE_ROOT;
@@ -217,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC3CB6720AE661700D325C2 /* ViewController.m in Sources */,
-				3AC3CB8D20AE748700D325C2 /* KSCircleProgressView.m in Sources */,
+				3AC3CB9120AEA77F00D325C2 /* KSCircleProgressView.m in Sources */,
 				3AC3CB7220AE662500D325C2 /* main.m in Sources */,
 				3AC3CB6420AE661700D325C2 /* AppDelegate.m in Sources */,
 			);
