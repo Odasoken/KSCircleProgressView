@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0205AD840D2CF16FBE5A4688C2150FAE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF8154ACDAAA3F3BDA38E806EB7C346 /* CoreFoundation.framework */; };
+		2EDCA8F6144F6D1D6187CC3177E6A08E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F64D980992E613CDEBA75A9590DEF8 /* CoreGraphics.framework */; };
+		3818021928A62E1D10A92F0381329823 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31999AFCB3B53D6E87C04BF7A35823AE /* MBProgressHUD-dummy.m */; };
+		48BEF7CD7CFE3DFB1CDA6CC4C73510DB /* Pods-KSCircleProgressViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8282D47F0327A86E1497BEFE94E52A21 /* Pods-KSCircleProgressViewDemo-dummy.m */; };
+		640E9621D7BA67E5B9E6C3D97CB1B161 /* KSCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F788AB17F33D41583EB12242F9B89BE1 /* KSCircleProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65FEDC6C9309320E65607CEDEB3DE1FB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D203F42086D7645CCE1A355C62B02B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78664C9DC9985569B9403D29A9B09EA8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8396BAD901C73BDD0C3D24163B1AED /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA2FA9B192A99DD81AB340E04F43602B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3428E1B357159DD5DEBCA33023C773E5 /* QuartzCore.framework */; };
+		BF6425FFE233C90DE4413140FABA7FC2 /* KSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FD8E91B9F936E1690C1B6C0BD23DB6 /* KSCircleProgressView.m */; };
+		D0A142C2DE87E6F76E4E9619C2D9934F /* KSCircleProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 625A4C2CE478359FF4B3AD13AF563AE8 /* KSCircleProgressView-dummy.m */; };
+		D1C50AF98C0914F4ECE7448ED7641363 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927E4513DEB8A00A553084C89E7673EE /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262D5BB266F4C0C32A269C06C3CD69E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A428B660754B09F74666D7ED07EF4D00;
+			remoteInfo = KSCircleProgressView;
+		};
+		D2BC9525496A9700D472B796B699EF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CFC571F9F4BF802B56D44D3C5E21B5D;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2C6B3196EADB85C4B084BE4584028D /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8396BAD901C73BDD0C3D24163B1AED /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		141FBD84B55B2575943436282A6FB5D3 /* libPods-KSCircleProgressViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KSCircleProgressViewDemo.a"; path = "libPods-KSCircleProgressViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31999AFCB3B53D6E87C04BF7A35823AE /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		3428E1B357159DD5DEBCA33023C773E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3AF8154ACDAAA3F3BDA38E806EB7C346 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		475B2059A394A1315918BE6141A214A6 /* Pods-KSCircleProgressViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSCircleProgressViewDemo-resources.sh"; sourceTree = "<group>"; };
+		53D203F42086D7645CCE1A355C62B02B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		61AEB4DCC6269605142100760B72D107 /* Pods-KSCircleProgressViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSCircleProgressViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		625A4C2CE478359FF4B3AD13AF563AE8 /* KSCircleProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSCircleProgressView-dummy.m"; sourceTree = "<group>"; };
+		74F64D980992E613CDEBA75A9590DEF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8282D47F0327A86E1497BEFE94E52A21 /* Pods-KSCircleProgressViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSCircleProgressViewDemo-dummy.m"; sourceTree = "<group>"; };
+		927E4513DEB8A00A553084C89E7673EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99FD8E91B9F936E1690C1B6C0BD23DB6 /* KSCircleProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSCircleProgressView.m; path = KSCircleProgressView/KSCircleProgressView.m; sourceTree = "<group>"; };
+		9E92864469183476315104916FB40A6D /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		AD7DB2F768BC27DCBE1771DEC96D16BE /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		B13BA591F4249319925E96356164975A /* Pods-KSCircleProgressViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSCircleProgressViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B6C314B0D60C8B25F633DB13DE513E43 /* libKSCircleProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKSCircleProgressView.a; path = libKSCircleProgressView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4C30D9BBEA62F2F30DE2CC203E4DDF /* Pods-KSCircleProgressViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSCircleProgressViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D9B4C89620CAB2F49CD5AE4CCF09D325 /* Pods-KSCircleProgressViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSCircleProgressViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAF6DAA10DE132A8401A34EA18FFD547 /* KSCircleProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSCircleProgressView-prefix.pch"; sourceTree = "<group>"; };
+		E3E81B133603855BD99CB62CA456BCA1 /* Pods-KSCircleProgressViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSCircleProgressViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F123261DB78A946EB1C5F48F86CED969 /* KSCircleProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSCircleProgressView.xcconfig; sourceTree = "<group>"; };
+		F788AB17F33D41583EB12242F9B89BE1 /* KSCircleProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCircleProgressView.h; path = KSCircleProgressView/KSCircleProgressView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50890198889798A1641CB1ABCED9A4DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0205AD840D2CF16FBE5A4688C2150FAE /* CoreFoundation.framework in Frameworks */,
+				AA2FA9B192A99DD81AB340E04F43602B /* QuartzCore.framework in Frameworks */,
+				D1C50AF98C0914F4ECE7448ED7641363 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8108913BF2C4A30B21E6355251BB2B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDCA8F6144F6D1D6187CC3177E6A08E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94955D27A1DE3F9D4230CB78E8182C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051002323C426C76876EFEEC2598611D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92956C8C79A7DF3E09B4B47071E047B3 /* KSCircleProgressView */,
+				1BA49479E80F15606DC3D73B1A729D4F /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE33439D88C912AC897B854EF52B6C71 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BA49479E80F15606DC3D73B1A729D4F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				53D203F42086D7645CCE1A355C62B02B /* MBProgressHUD.h */,
+				0E8396BAD901C73BDD0C3D24163B1AED /* MBProgressHUD.m */,
+				E323863069D9DF76BBCB3F4000ABDB32 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1DA0A58AAC7ABCFF5772EE258791E327 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F123261DB78A946EB1C5F48F86CED969 /* KSCircleProgressView.xcconfig */,
+				625A4C2CE478359FF4B3AD13AF563AE8 /* KSCircleProgressView-dummy.m */,
+				DAF6DAA10DE132A8401A34EA18FFD547 /* KSCircleProgressView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KSCircleProgressView";
+			sourceTree = "<group>";
+		};
+		6053013FB15D469934EF0B1AE0AB5F20 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8138CAE9EA89314DD79BB057EB9B1D7B /* Pods-KSCircleProgressViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				051002323C426C76876EFEEC2598611D /* Pods */,
+				E860DFA8781A2F28BD07124C92B18F5C /* Products */,
+				6053013FB15D469934EF0B1AE0AB5F20 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8138CAE9EA89314DD79BB057EB9B1D7B /* Pods-KSCircleProgressViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				61AEB4DCC6269605142100760B72D107 /* Pods-KSCircleProgressViewDemo-acknowledgements.markdown */,
+				D9B4C89620CAB2F49CD5AE4CCF09D325 /* Pods-KSCircleProgressViewDemo-acknowledgements.plist */,
+				8282D47F0327A86E1497BEFE94E52A21 /* Pods-KSCircleProgressViewDemo-dummy.m */,
+				B13BA591F4249319925E96356164975A /* Pods-KSCircleProgressViewDemo-frameworks.sh */,
+				475B2059A394A1315918BE6141A214A6 /* Pods-KSCircleProgressViewDemo-resources.sh */,
+				E3E81B133603855BD99CB62CA456BCA1 /* Pods-KSCircleProgressViewDemo.debug.xcconfig */,
+				BB4C30D9BBEA62F2F30DE2CC203E4DDF /* Pods-KSCircleProgressViewDemo.release.xcconfig */,
+			);
+			name = "Pods-KSCircleProgressViewDemo";
+			path = "Target Support Files/Pods-KSCircleProgressViewDemo";
+			sourceTree = "<group>";
+		};
+		92956C8C79A7DF3E09B4B47071E047B3 /* KSCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F788AB17F33D41583EB12242F9B89BE1 /* KSCircleProgressView.h */,
+				99FD8E91B9F936E1690C1B6C0BD23DB6 /* KSCircleProgressView.m */,
+				1DA0A58AAC7ABCFF5772EE258791E327 /* Support Files */,
+			);
+			name = KSCircleProgressView;
+			path = KSCircleProgressView;
+			sourceTree = "<group>";
+		};
+		AE33439D88C912AC897B854EF52B6C71 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8154ACDAAA3F3BDA38E806EB7C346 /* CoreFoundation.framework */,
+				74F64D980992E613CDEBA75A9590DEF8 /* CoreGraphics.framework */,
+				3428E1B357159DD5DEBCA33023C773E5 /* QuartzCore.framework */,
+				927E4513DEB8A00A553084C89E7673EE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E323863069D9DF76BBCB3F4000ABDB32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E92864469183476315104916FB40A6D /* MBProgressHUD.xcconfig */,
+				31999AFCB3B53D6E87C04BF7A35823AE /* MBProgressHUD-dummy.m */,
+				AD7DB2F768BC27DCBE1771DEC96D16BE /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		E860DFA8781A2F28BD07124C92B18F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C314B0D60C8B25F633DB13DE513E43 /* libKSCircleProgressView.a */,
+				0C2C6B3196EADB85C4B084BE4584028D /* libMBProgressHUD.a */,
+				141FBD84B55B2575943436282A6FB5D3 /* libPods-KSCircleProgressViewDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E18C1E59D624284A826B9A0F8627270F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640E9621D7BA67E5B9E6C3D97CB1B161 /* KSCircleProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2EA5CDF13976CE069C0362ECC5B22E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FEDC6C9309320E65607CEDEB3DE1FB /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CFC571F9F4BF802B56D44D3C5E21B5D /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FF03B6E29456A5EAA4A4BDC9D3C53E /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				023213060782B71653EBFD4B565E9FFA /* Sources */,
+				8108913BF2C4A30B21E6355251BB2B83 /* Frameworks */,
+				EF2EA5CDF13976CE069C0362ECC5B22E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 0C2C6B3196EADB85C4B084BE4584028D /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A428B660754B09F74666D7ED07EF4D00 /* KSCircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F361795758B61896FAB52AB1A7B7D56A /* Build configuration list for PBXNativeTarget "KSCircleProgressView" */;
+			buildPhases = (
+				97A8A383BE3B1896293B17F604450538 /* Sources */,
+				50890198889798A1641CB1ABCED9A4DD /* Frameworks */,
+				E18C1E59D624284A826B9A0F8627270F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSCircleProgressView;
+			productName = KSCircleProgressView;
+			productReference = B6C314B0D60C8B25F633DB13DE513E43 /* libKSCircleProgressView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABDB745B47942268EB8DFB1392EC55A4 /* Pods-KSCircleProgressViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6D13B4D556C62E012F22CF8004DA9B /* Build configuration list for PBXNativeTarget "Pods-KSCircleProgressViewDemo" */;
+			buildPhases = (
+				63A6CB53387A0C723224A695973FE404 /* Sources */,
+				94955D27A1DE3F9D4230CB78E8182C8F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A973C12F29A60B0D80AF9E4B5085EA7 /* PBXTargetDependency */,
+				FA93E931264A9769A137C2222AD5B9BA /* PBXTargetDependency */,
+			);
+			name = "Pods-KSCircleProgressViewDemo";
+			productName = "Pods-KSCircleProgressViewDemo";
+			productReference = 141FBD84B55B2575943436282A6FB5D3 /* libPods-KSCircleProgressViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E860DFA8781A2F28BD07124C92B18F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A428B660754B09F74666D7ED07EF4D00 /* KSCircleProgressView */,
+				6CFC571F9F4BF802B56D44D3C5E21B5D /* MBProgressHUD */,
+				ABDB745B47942268EB8DFB1392EC55A4 /* Pods-KSCircleProgressViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023213060782B71653EBFD4B565E9FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3818021928A62E1D10A92F0381329823 /* MBProgressHUD-dummy.m in Sources */,
+				78664C9DC9985569B9403D29A9B09EA8 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A6CB53387A0C723224A695973FE404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BEF7CD7CFE3DFB1CDA6CC4C73510DB /* Pods-KSCircleProgressViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A8A383BE3B1896293B17F604450538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A142C2DE87E6F76E4E9619C2D9934F /* KSCircleProgressView-dummy.m in Sources */,
+				BF6425FFE233C90DE4413140FABA7FC2 /* KSCircleProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A973C12F29A60B0D80AF9E4B5085EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSCircleProgressView;
+			target = A428B660754B09F74666D7ED07EF4D00 /* KSCircleProgressView */;
+			targetProxy = 262D5BB266F4C0C32A269C06C3CD69E2 /* PBXContainerItemProxy */;
+		};
+		FA93E931264A9769A137C2222AD5B9BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 6CFC571F9F4BF802B56D44D3C5E21B5D /* MBProgressHUD */;
+			targetProxy = D2BC9525496A9700D472B796B699EF1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A6C6D80F2DF43C500C33D458973CDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F123261DB78A946EB1C5F48F86CED969 /* KSCircleProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KSCircleProgressView/KSCircleProgressView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KSCircleProgressView;
+				PRODUCT_NAME = KSCircleProgressView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA5E1D8FCE665EF286A351EAA17FD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E81B133603855BD99CB62CA456BCA1 /* Pods-KSCircleProgressViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD4D6692A6C576CBD9D3BE6E12A79D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E92864469183476315104916FB40A6D /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73327C7EE06AB9DB499721C8586597C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4C30D9BBEA62F2F30DE2CC203E4DDF /* Pods-KSCircleProgressViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0A78F26252F455C86565B9D7BFF5491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F123261DB78A946EB1C5F48F86CED969 /* KSCircleProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KSCircleProgressView/KSCircleProgressView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KSCircleProgressView;
+				PRODUCT_NAME = KSCircleProgressView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6BAD2F7A944FDAAD69CAB3265EC0607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E92864469183476315104916FB40A6D /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FF03B6E29456A5EAA4A4BDC9D3C53E /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BAD2F7A944FDAAD69CAB3265EC0607 /* Debug */,
+				BD4D6692A6C576CBD9D3BE6E12A79D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6D13B4D556C62E012F22CF8004DA9B /* Build configuration list for PBXNativeTarget "Pods-KSCircleProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA5E1D8FCE665EF286A351EAA17FD71 /* Debug */,
+				C73327C7EE06AB9DB499721C8586597C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F361795758B61896FAB52AB1A7B7D56A /* Build configuration list for PBXNativeTarget "KSCircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A78F26252F455C86565B9D7BFF5491 /* Debug */,
+				3A6C6D80F2DF43C500C33D458973CDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
