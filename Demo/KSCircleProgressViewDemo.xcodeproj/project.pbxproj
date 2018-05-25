@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1906EBF04BA793B3B06F775A /* libPods-KSCircleProgressViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672F4F5263224556B81C3E31 /* libPods-KSCircleProgressViewDemo.a */; };
 		3AC3CB6420AE661700D325C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB6320AE661700D325C2 /* AppDelegate.m */; };
 		3AC3CB6720AE661700D325C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB6620AE661700D325C2 /* ViewController.m */; };
 		3AC3CB6A20AE661700D325C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3CB6820AE661700D325C2 /* Main.storyboard */; };
@@ -15,6 +14,9 @@
 		3AC3CB6F20AE662500D325C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3CB6D20AE662500D325C2 /* LaunchScreen.storyboard */; };
 		3AC3CB7220AE662500D325C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB7120AE662500D325C2 /* main.m */; };
 		3AC3CB7C20AE662500D325C2 /* KSCircleProgressViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB7B20AE662500D325C2 /* KSCircleProgressViewDemoUITests.m */; };
+		3AC3CBA320AED91700D325C2 /* KSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CBA020AED91600D325C2 /* KSCircleProgressView.m */; };
+		3AC3CBA420AED91700D325C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3CBA120AED91600D325C2 /* LICENSE */; };
+		3AC3CBA520AED91700D325C2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3CBA220AED91600D325C2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +43,10 @@
 		3AC3CB7720AE662500D325C2 /* KSCircleProgressViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSCircleProgressViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC3CB7B20AE662500D325C2 /* KSCircleProgressViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCircleProgressViewDemoUITests.m; sourceTree = "<group>"; };
 		3AC3CB7D20AE662500D325C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		672F4F5263224556B81C3E31 /* libPods-KSCircleProgressViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSCircleProgressViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		843E05301393673CC743FAAF /* Pods-KSCircleProgressViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCircleProgressViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSCircleProgressViewDemo/Pods-KSCircleProgressViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		EB07A9D434DFFF494C5183D0 /* Pods-KSCircleProgressViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCircleProgressViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSCircleProgressViewDemo/Pods-KSCircleProgressViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3AC3CB9F20AED91600D325C2 /* KSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCircleProgressView.h; sourceTree = "<group>"; };
+		3AC3CBA020AED91600D325C2 /* KSCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCircleProgressView.m; sourceTree = "<group>"; };
+		3AC3CBA120AED91600D325C2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3AC3CBA220AED91600D325C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1906EBF04BA793B3B06F775A /* libPods-KSCircleProgressViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +70,6 @@
 		1B8F1ADBB5F21384F2FD51D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				672F4F5263224556B81C3E31 /* libPods-KSCircleProgressViewDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,7 +80,6 @@
 				3AC3CB6120AE661700D325C2 /* KSCircleProgressViewDemo */,
 				3AC3CB7A20AE662500D325C2 /* KSCircleProgressViewDemoUITests */,
 				3AC3CB6020AE661700D325C2 /* Products */,
-				3E491E60D1C5ADD503E9AE24 /* Pods */,
 				1B8F1ADBB5F21384F2FD51D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +101,7 @@
 				3AC3CB6520AE661700D325C2 /* ViewController.h */,
 				3AC3CB6620AE661700D325C2 /* ViewController.m */,
 				3AC3CB6820AE661700D325C2 /* Main.storyboard */,
+				3AC3CB9D20AED91600D325C2 /* KSCircleProgressView */,
 				3AC3CB6B20AE662500D325C2 /* Assets.xcassets */,
 				3AC3CB6D20AE662500D325C2 /* LaunchScreen.storyboard */,
 				3AC3CB7020AE662500D325C2 /* Info.plist */,
@@ -118,13 +119,23 @@
 			path = KSCircleProgressViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		3E491E60D1C5ADD503E9AE24 /* Pods */ = {
+		3AC3CB9D20AED91600D325C2 /* KSCircleProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				843E05301393673CC743FAAF /* Pods-KSCircleProgressViewDemo.debug.xcconfig */,
-				EB07A9D434DFFF494C5183D0 /* Pods-KSCircleProgressViewDemo.release.xcconfig */,
+				3AC3CB9E20AED91600D325C2 /* KSCircleProgressView */,
+				3AC3CBA120AED91600D325C2 /* LICENSE */,
+				3AC3CBA220AED91600D325C2 /* README.md */,
 			);
-			name = Pods;
+			path = KSCircleProgressView;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AC3CB9E20AED91600D325C2 /* KSCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				3AC3CB9F20AED91600D325C2 /* KSCircleProgressView.h */,
+				3AC3CBA020AED91600D325C2 /* KSCircleProgressView.m */,
+			);
+			path = KSCircleProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +145,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AC3CB8020AE662500D325C2 /* Build configuration list for PBXNativeTarget "KSCircleProgressViewDemo" */;
 			buildPhases = (
-				9A68F6D8F251688EB553128A /* [CP] Check Pods Manifest.lock */,
 				3AC3CB5B20AE661600D325C2 /* Sources */,
 				3AC3CB5C20AE661600D325C2 /* Frameworks */,
 				3AC3CB5D20AE661600D325C2 /* Resources */,
@@ -210,6 +220,8 @@
 			files = (
 				3AC3CB6F20AE662500D325C2 /* LaunchScreen.storyboard in Resources */,
 				3AC3CB6C20AE662500D325C2 /* Assets.xcassets in Resources */,
+				3AC3CBA520AED91700D325C2 /* README.md in Resources */,
+				3AC3CBA420AED91700D325C2 /* LICENSE in Resources */,
 				3AC3CB6A20AE661700D325C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,33 +235,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9A68F6D8F251688EB553128A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KSCircleProgressViewDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		3AC3CB5B20AE661600D325C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3AC3CB6720AE661700D325C2 /* ViewController.m in Sources */,
+				3AC3CBA320AED91700D325C2 /* KSCircleProgressView.m in Sources */,
 				3AC3CB7220AE662500D325C2 /* main.m in Sources */,
 				3AC3CB6420AE661700D325C2 /* AppDelegate.m in Sources */,
 			);
@@ -405,7 +397,6 @@
 		};
 		3AC3CB8120AE662500D325C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 843E05301393673CC743FAAF /* Pods-KSCircleProgressViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -424,7 +415,6 @@
 		};
 		3AC3CB8220AE662500D325C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB07A9D434DFFF494C5183D0 /* Pods-KSCircleProgressViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

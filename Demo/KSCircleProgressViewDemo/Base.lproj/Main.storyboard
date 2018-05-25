@@ -18,34 +18,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTI-EQ-D9i" customClass="KSCircleProgressView">
-                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ek-Yx-cUy" customClass="KSCircleProgressView">
+                                <rect key="frame" x="40" y="154" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="iqj-KW-1Lj"/>
-                                    <constraint firstAttribute="width" constant="100" id="zQP-gc-gNq"/>
+                                    <constraint firstAttribute="width" constant="100" id="KAg-xe-uCd"/>
+                                    <constraint firstAttribute="height" constant="100" id="g61-x1-yBI"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="dashColor">
-                                        <color key="value" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="progressViewStyle">
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="progress">
-                                        <real key="value" value="0.80000000000000004"/>
+                                        <real key="value" value="0.29999999999999999"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-Ox-Nwd" customClass="KSCircleProgressView">
-                                <rect key="frame" x="29" y="154" width="100" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Atk-1F-Fnu" customClass="KSCircleProgressView">
+                                <rect key="frame" x="137.5" y="268" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="Erm-TB-aXw"/>
-                                    <constraint firstAttribute="width" constant="100" id="UnP-q2-f4M"/>
+                                    <constraint firstAttribute="height" constant="100" id="3K1-fx-vLf"/>
+                                    <constraint firstAttribute="width" constant="100" id="Iv0-5Q-zeG"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="dashColor">
@@ -57,20 +60,20 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="progressViewStyle">
                                         <integer key="value" value="0"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
-                                        <real key="value" value="0.80000000000000004"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
                                         <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.34999999999999998"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4B-GM-YdJ">
-                                <rect key="frame" x="237.5" y="116" width="79" height="30"/>
+                                <rect key="frame" x="237" y="116" width="79" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="C5Q-Hh-5nE"/>
-                                    <constraint firstAttribute="width" constant="79" id="z8e-rg-CP0"/>
+                                    <constraint firstAttribute="height" constant="30" id="OFB-yl-ZA9"/>
+                                    <constraint firstAttribute="width" constant="79" id="X4h-zY-ZY2"/>
                                 </constraints>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,18 +85,18 @@
                         </subviews>
                         <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="OTI-EQ-D9i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2fr-KO-L3y"/>
-                            <constraint firstItem="l4B-GM-YdJ" firstAttribute="leading" secondItem="OTI-EQ-D9i" secondAttribute="trailing" id="7dt-Ey-iRR"/>
-                            <constraint firstItem="OTI-EQ-D9i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JRC-gY-crG"/>
-                            <constraint firstItem="oc9-Ox-Nwd" firstAttribute="top" secondItem="l4B-GM-YdJ" secondAttribute="bottom" constant="8" id="LeM-f7-AG2"/>
-                            <constraint firstItem="OTI-EQ-D9i" firstAttribute="leading" secondItem="oc9-Ox-Nwd" secondAttribute="trailing" constant="8.5" id="SdH-QR-etX"/>
-                            <constraint firstItem="OTI-EQ-D9i" firstAttribute="top" secondItem="oc9-Ox-Nwd" secondAttribute="bottom" constant="29.5" id="bJU-Vl-bvM"/>
+                            <constraint firstItem="1Ek-Yx-cUy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="4WA-le-dxn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l4B-GM-YdJ" secondAttribute="trailing" constant="58.5" id="AO3-Cn-xzZ"/>
+                            <constraint firstItem="1Ek-Yx-cUy" firstAttribute="top" secondItem="l4B-GM-YdJ" secondAttribute="bottom" constant="8" id="eIM-7y-rIP"/>
+                            <constraint firstItem="Atk-1F-Fnu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ff6-Fv-A1P"/>
+                            <constraint firstItem="Atk-1F-Fnu" firstAttribute="top" secondItem="1Ek-Yx-cUy" secondAttribute="bottom" constant="14" id="jie-VQ-6o0"/>
+                            <constraint firstItem="l4B-GM-YdJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="96" id="s70-5i-e6b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="fillProgressView" destination="OTI-EQ-D9i" id="IzR-Ty-M3d"/>
-                        <outlet property="strokeProgressView" destination="oc9-Ox-Nwd" id="eBF-Sb-6aS"/>
+                        <outlet property="fillProgressView" destination="1Ek-Yx-cUy" id="cWY-ac-M9B"/>
+                        <outlet property="strokeProgressView" destination="Atk-1F-Fnu" id="9Wl-uj-NZ4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
