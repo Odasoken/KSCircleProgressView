@@ -1,7 +1,7 @@
 
 
 ## KSCircleProgressView
-Lightweight Progress View that display in cicle style
+Lightweight Progress View that display in circle style
 ##
 ![image](https://github.com/abredo/KSCircleProgressView/blob/master/demo.gif) 
 
