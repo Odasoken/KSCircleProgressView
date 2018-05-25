@@ -1,12 +1,17 @@
-# KSCircleProgressView
+
+
+## KSCircleProgressView
 Lightweight Progress View that display in cicle style
-<p align="center" >
-  ![image](https://github.com/abredo/KSCircleProgressView/blob/master/demo.gif) 
-</p>
+##
+![image](https://github.com/abredo/KSCircleProgressView/blob/master/demo.gif) 
 
 
 
 ##Get Started
+
+###  Manual import：
+    * Drag All files in the `KSCircleProgressView` folder to project
+    * Import the main file：`#import "KSCircleProgressView.h"`
 
 ### Installation with Cocoapods
 
