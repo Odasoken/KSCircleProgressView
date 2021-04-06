@@ -35,5 +35,10 @@ circleProgressView.frame = CGRectMake(circleProgressViewX, circleProgressViewY, 
 circleProgressView.progress = 0.2;
 [self.view addSubview:circleProgressView];
  ```
+ ### Used in Xib/Storyboard
+
+The KSCircleProgressView is IB_DESIGNABLE,  you can modify the attibutes  in Xib/Storyboard file.
+![image](https://github.com/Odasoken/KSCircleProgressView/blob/master/demo2.jpg) 
+![image](https://github.com/Odasoken/KSCircleProgressView/blob/master/demo3.jpg) 
 
 
