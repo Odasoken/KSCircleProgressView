@@ -19,6 +19,7 @@ IB_DESIGNABLE
 
 @property  (nonatomic, strong) IBInspectable UIColor *dashColor;
 @property  (nonatomic, strong)IBInspectable  UIColor *tintColor;
+@property  (nonatomic, assign)IBInspectable  BOOL showPercentagLabel;
 //#if TARGET_INTERFACE_BUILDER
 @property  (nonatomic, assign)IBInspectable NSInteger progressViewStyle;
 //#else
