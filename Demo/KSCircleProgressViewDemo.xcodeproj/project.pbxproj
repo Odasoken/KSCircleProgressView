@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E928E3F2261D4EA4006C6A0D /* KSCircleProgressViewFrameworkXmaker */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E928E3F3261D4EA4006C6A0D /* Build configuration list for PBXAggregateTarget "KSCircleProgressViewFrameworkXmaker" */;
+			buildPhases = (
+				E928E3F6261D4EDE006C6A0D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = KSCircleProgressViewFrameworkXmaker;
+			productName = KSCircleProgressViewFrameworkX;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		3AC3CB6420AE661700D325C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB6320AE661700D325C2 /* AppDelegate.m */; };
 		3AC3CB6720AE661700D325C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CB6620AE661700D325C2 /* ViewController.m */; };
@@ -30,6 +44,15 @@
 		E928E3E4261D469A006C6A0D /* KSCircleProgressViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E928E3D4261D469A006C6A0D /* KSCircleProgressViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E928E3F0261D4763006C6A0D /* KSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3CBA020AED91600D325C2 /* KSCircleProgressView.m */; };
 		E928E3F1261D47A1006C6A0D /* KSCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC3CB9F20AED91600D325C2 /* KSCircleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E928E3FF261D85EF006C6A0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E928E3FE261D85EF006C6A0D /* AppDelegate.m */; };
+		E928E402261D85EF006C6A0D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E928E401261D85EF006C6A0D /* SceneDelegate.m */; };
+		E928E405261D85EF006C6A0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E928E404261D85EF006C6A0D /* ViewController.m */; };
+		E928E408261D85EF006C6A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E928E406261D85EF006C6A0D /* Main.storyboard */; };
+		E928E40A261D85F1006C6A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E928E409261D85F1006C6A0D /* Assets.xcassets */; };
+		E928E40D261D85F1006C6A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E928E40B261D85F1006C6A0D /* LaunchScreen.storyboard */; };
+		E928E410261D85F1006C6A0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E928E40F261D85F1006C6A0D /* main.m */; };
+		E928E414261D861E006C6A0D /* KSCircleProgressViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E928E3D2261D469A006C6A0D /* KSCircleProgressViewFramework.framework */; };
+		E928E415261D88CB006C6A0D /* KSCircleProgressViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E928E3D2261D469A006C6A0D /* KSCircleProgressViewFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +132,18 @@
 		E928E3D5261D469A006C6A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E928E3E1261D469A006C6A0D /* KSCircleProgressViewFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCircleProgressViewFrameworkTests.m; sourceTree = "<group>"; };
 		E928E3E3261D469A006C6A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E928E3FB261D85EF006C6A0D /* KSCircleProgressViewDemoWithFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCircleProgressViewDemoWithFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E928E3FD261D85EF006C6A0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E928E3FE261D85EF006C6A0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E928E400261D85EF006C6A0D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E928E401261D85EF006C6A0D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E928E403261D85EF006C6A0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E928E404261D85EF006C6A0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E928E407261D85EF006C6A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E928E409261D85F1006C6A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E928E40C261D85F1006C6A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E928E40E261D85F1006C6A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E928E40F261D85F1006C6A0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +180,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E928E414261D861E006C6A0D /* KSCircleProgressViewFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928E3F8261D85EF006C6A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E928E415261D88CB006C6A0D /* KSCircleProgressViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +211,7 @@
 				E928E395261D4472006C6A0D /* KSCircleProgressViewDemoWithStaticLibrary */,
 				E928E3D3261D469A006C6A0D /* KSCircleProgressViewFramework */,
 				E928E3E0261D469A006C6A0D /* KSCircleProgressViewFrameworkTests */,
+				E928E3FC261D85EF006C6A0D /* KSCircleProgressViewDemoWithFramework */,
 				3AC3CB6020AE661700D325C2 /* Products */,
 				1B8F1ADBB5F21384F2FD51D9 /* Frameworks */,
 			);
@@ -180,6 +225,7 @@
 				E928E37B261D39E3006C6A0D /* libKSCircleProgressView.a */,
 				E928E394261D4472006C6A0D /* KSCircleProgressViewDemoWithStaticLibrary.app */,
 				E928E3D2261D469A006C6A0D /* KSCircleProgressViewFramework.framework */,
+				E928E3FB261D85EF006C6A0D /* KSCircleProgressViewDemoWithFramework.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +326,24 @@
 				E928E3E3261D469A006C6A0D /* Info.plist */,
 			);
 			path = KSCircleProgressViewFrameworkTests;
+			sourceTree = "<group>";
+		};
+		E928E3FC261D85EF006C6A0D /* KSCircleProgressViewDemoWithFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E928E3FD261D85EF006C6A0D /* AppDelegate.h */,
+				E928E3FE261D85EF006C6A0D /* AppDelegate.m */,
+				E928E400261D85EF006C6A0D /* SceneDelegate.h */,
+				E928E401261D85EF006C6A0D /* SceneDelegate.m */,
+				E928E403261D85EF006C6A0D /* ViewController.h */,
+				E928E404261D85EF006C6A0D /* ViewController.m */,
+				E928E406261D85EF006C6A0D /* Main.storyboard */,
+				E928E409261D85F1006C6A0D /* Assets.xcassets */,
+				E928E40B261D85F1006C6A0D /* LaunchScreen.storyboard */,
+				E928E40E261D85F1006C6A0D /* Info.plist */,
+				E928E40F261D85F1006C6A0D /* main.m */,
+			);
+			path = KSCircleProgressViewDemoWithFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +459,23 @@
 			productReference = E928E3D2261D469A006C6A0D /* KSCircleProgressViewFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E928E3FA261D85EF006C6A0D /* KSCircleProgressViewDemoWithFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E928E411261D85F1006C6A0D /* Build configuration list for PBXNativeTarget "KSCircleProgressViewDemoWithFramework" */;
+			buildPhases = (
+				E928E3F7261D85EF006C6A0D /* Sources */,
+				E928E3F8261D85EF006C6A0D /* Frameworks */,
+				E928E3F9261D85EF006C6A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSCircleProgressViewDemoWithFramework;
+			productName = KSCircleProgressViewDemoWithFramework;
+			productReference = E928E3FB261D85EF006C6A0D /* KSCircleProgressViewDemoWithFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -420,6 +501,12 @@
 					E928E3D1261D469A006C6A0D = {
 						CreatedOnToolsVersion = 11.3;
 					};
+					E928E3F2261D4EA4006C6A0D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E928E3FA261D85EF006C6A0D = {
+						CreatedOnToolsVersion = 11.3;
+					};
 				};
 			};
 			buildConfigurationList = 3AC3CB5A20AE661600D325C2 /* Build configuration list for PBXProject "KSCircleProgressViewDemo" */;
@@ -440,6 +527,8 @@
 				E928E37A261D39E3006C6A0D /* KSCircleProgressView */,
 				E928E393261D4472006C6A0D /* KSCircleProgressViewDemoWithStaticLibrary */,
 				E928E3D1261D469A006C6A0D /* KSCircleProgressViewFramework */,
+				E928E3F2261D4EA4006C6A0D /* KSCircleProgressViewFrameworkXmaker */,
+				E928E3FA261D85EF006C6A0D /* KSCircleProgressViewDemoWithFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -481,7 +570,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E928E3F9261D85EF006C6A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E928E40D261D85F1006C6A0D /* LaunchScreen.storyboard in Resources */,
+				E928E40A261D85F1006C6A0D /* Assets.xcassets in Resources */,
+				E928E408261D85EF006C6A0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E928E3F6261D4EDE006C6A0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo '****************Build Start*************'\n#脚本运行当前目录\nCUR_DIR=$(cd \"$(dirname \"$0\")\"; pwd)\necho '*****当前目录----'$CUR_DIR'*****'\n\n#定义库的名字  ${PROJECT_NAME} \"TestFramework\"\nMY_LIB_NAME=\"KSCircleProgressViewFramework\"\n#编译对象 target的名字  一般与工程名字一致\nMY_BUILD_TARGET_NAME=\"KSCircleProgressViewFramework\"\n\n#目标目录\nTARGET_DIR=${SRCROOT}  #作为Xcode-Aggregate运行打开\n#TARGET_DIR=${CUR_DIR}  #作为sh文件运行打开\n\n#定义编译目录  当前工程的目录下\nWRK_DIR=build\n\n#编译模式  ${CONFIGURATION}   Release   Debug\nMY_BUILD_MODE=\"Release\"\n\n#源文件\nDEVICE_DIR=${WRK_DIR}/${MY_BUILD_MODE}-iphoneos/${MY_LIB_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/${MY_BUILD_MODE}-iphonesimulator/${MY_LIB_NAME}.framework\n\n#swift库特有文件 AEXML.framework/Modules/AEXML.swiftmodule\nMODULES_DEVICE_DIR=${DEVICE_DIR}/Modules/${MY_LIB_NAME}.swiftmodule\nMODULES_SIMULATOR_DIR=${SIMULATOR_DIR}/Modules/${MY_LIB_NAME}.swiftmodule\n\n# 目标文件\nINSTALL_DIR=${TARGET_DIR}/Products/${MY_LIB_NAME}.framework\nMODULES_INSTALL_DIR=${TARGET_DIR}/Products/${MY_LIB_NAME}.framework/Modules/${MY_LIB_NAME}.swiftmodule\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"${MY_BUILD_MODE}\" -target \"${MY_BUILD_TARGET_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"${MY_BUILD_MODE}\" -target \"${MY_BUILD_TARGET_NAME}\" -sdk iphonesimulator clean build\n\n\necho '****************Build End*************'\necho '****************Compound Start*************'\n\n#删除已经存在的文件\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n#递归重建文件\nmkdir -p \"${INSTALL_DIR}\"\n#拷贝文件  ${DEVICE_DIR}/目录下的文件  拷贝到${INSTALL_DIR}/目录下\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\n#合并库架构 同时支持模拟器和真机\nlipo -create \"${DEVICE_DIR}/${MY_LIB_NAME}\" \"${SIMULATOR_DIR}/${MY_LIB_NAME}\" -output \"${INSTALL_DIR}/${MY_LIB_NAME}\"\n\n\n#合并swift库特有文件 AEXML.framework/Modules/AEXML.swiftmodule\nif [ -d \"${MODULES_SIMULATOR_DIR}\" ]\nthen\n\nif [ -d \"${MODULES_SIMULATOR_DIR}\" ]\nthen\ncp -R \"${MODULES_SIMULATOR_DIR}/\" \"${MODULES_INSTALL_DIR}/\"\nfi\n\nfi\n\n\nrm -r \"${WRK_DIR}\"\n\n\n# 打开文件夹\nopen \"${TARGET_DIR}/Products\"\n\necho '****************Compound End*************'\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AC3CB5B20AE661600D325C2 /* Sources */ = {
@@ -530,6 +649,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E928E3F7261D85EF006C6A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E928E405261D85EF006C6A0D /* ViewController.m in Sources */,
+				E928E3FF261D85EF006C6A0D /* AppDelegate.m in Sources */,
+				E928E410261D85F1006C6A0D /* main.m in Sources */,
+				E928E402261D85EF006C6A0D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -574,6 +704,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E928E3A5261D4474006C6A0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E928E406261D85EF006C6A0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E928E407261D85EF006C6A0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E928E40B261D85F1006C6A0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E928E40C261D85F1006C6A0D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -838,10 +984,10 @@
 		E928E3EA261D469A006C6A0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DM77C9RG9W;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -853,11 +999,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mTa.KSCircleProgressViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
+				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -867,10 +1018,10 @@
 		E928E3EB261D469A006C6A0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DM77C9RG9W;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -882,13 +1033,71 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mTa.KSCircleProgressViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
+				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E928E3F4261D4EA4006C6A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E928E3F5261D4EA4006C6A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E928E412261D85F1006C6A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressViewDemoWithFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mTa.KSCircleProgressViewDemoWithFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E928E413261D85F1006C6A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressViewDemoWithFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mTa.KSCircleProgressViewDemoWithFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -945,6 +1154,24 @@
 			buildConfigurations = (
 				E928E3EA261D469A006C6A0D /* Debug */,
 				E928E3EB261D469A006C6A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E928E3F3261D4EA4006C6A0D /* Build configuration list for PBXAggregateTarget "KSCircleProgressViewFrameworkXmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E928E3F4261D4EA4006C6A0D /* Debug */,
+				E928E3F5261D4EA4006C6A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E928E411261D85F1006C6A0D /* Build configuration list for PBXNativeTarget "KSCircleProgressViewDemoWithFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E928E412261D85F1006C6A0D /* Debug */,
+				E928E413261D85F1006C6A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

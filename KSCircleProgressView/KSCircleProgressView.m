@@ -11,6 +11,7 @@
 
 @interface KSCircleProgressView()
 
+@property (strong, nonatomic)  UILabel *progressLabel;
 
 @end
 
@@ -34,6 +35,23 @@
     _lineWidth = lineWidth;
     
     return self;
+}
+#pragma mark - settings
+-(void)setShowPercentagLabel:(BOOL)showPercentagLabel
+{
+    _showPercentagLabel = showPercentagLabel;
+    _progressLabel.hidden = !showPercentagLabel;
+}
+-(UILabel *)progressLabel
+{
+    if (_progressLabel == nil) {
+        _progressLabel =  [[UILabel alloc] init];
+        _progressLabel.textColor = [UIColor blackColor];
+        _progressLabel.textAlignment = NSTextAlignmentCenter;
+        _progressLabel.hidden = !_showPercentagLabel;
+        [self addSubview:_progressLabel];
+    }
+    return _progressLabel;
 }
 
 -(void)setViewStyle:(KSCircleProgressViewStyle)progressViewStyle
@@ -64,6 +82,19 @@
 -(void)setProgress:(CGFloat)progress
 {
     _progress = progress;
+    NSString *text = nil;
+    if (progress >= 1.0) {
+        text = @"100%";
+    }else if ( progress <= 0.0)
+    {
+        text = @"";
+    }else
+    {
+        NSString *percent = [NSString stringWithFormat:@"%0.2f",progress];
+        percent = [percent stringByReplacingOccurrencesOfString:@"0." withString:@""];
+        text = [NSString stringWithFormat:@"%ld%%",(long)[percent integerValue]];
+    }
+    self.progressLabel.text = text;
     [self setNeedsDisplay];
 }
 
@@ -71,13 +102,18 @@
 {
     CGFloat width = CGRectGetWidth(rect);
     CGFloat height = CGRectGetHeight(rect);
-    CGFloat radius = MIN(width, height) * 0.5 - 5;
+    CGFloat radius = MIN(width, height) * 0.5;
+    if (_progressViewStyle == KSCircleProgressViewStyleStroke)
+    {
+        radius -= _lineWidth;
+
+    }
     CGPoint originPoint = CGPointMake(width * 0.5, height * 0.5);
     UIBezierPath *path1 = [UIBezierPath bezierPathWithArcCenter:originPoint radius:radius startAngle:0 endAngle: M_PI * 2  clockwise:true];
    
     
-    
-    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:originPoint radius:radius startAngle:M_PI * 1.5 endAngle:M_PI * 1.5 + M_PI * 2 * self.progress clockwise:true];
+    CGFloat startAngle = -M_PI * 0.5;
+    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:originPoint radius:radius startAngle:startAngle endAngle:startAngle + M_PI * 2 * self.progress clockwise:true];
 
     
     
@@ -104,8 +140,8 @@
 -(void)layoutSubviews
 {
     [super layoutSubviews];
+    _progressLabel.frame = self.bounds;
     [self setNeedsDisplay];
 }
-
 
 @end

@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/lx/Documents/GitHub/KSCircleProgressView/ios_libs/Release-iphonesimulator/KSCircleProgressViewDemo.build/Release-iphonesimulator/KSCircleProgressViewFramework.build/DerivedSources/KSCircleProgressViewFramework_vers.c

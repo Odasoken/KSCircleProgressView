@@ -10,7 +10,9 @@
 #import "KSCircleProgressView.h"
 
 @interface ViewController ()
+
 @property (strong, nonatomic)  KSCircleProgressView *progressView;
+
 @end
 
 @implementation ViewController
