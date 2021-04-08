@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name         = 'KSCircleProgressView'
 s.summary      = 'KSCircleProgressView : a lightweight iOS Circle ProgressView.'
-s.version      = '1.0.0'
+s.version      = '1.0.1'
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
 s.authors      = { 'Odasoken' => 'Odasoken@foxmail.com' }
 s.homepage     = 'https://github.com/Odasoken/KSCircleProgressView'
